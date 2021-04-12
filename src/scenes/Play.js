@@ -78,7 +78,7 @@ class Play extends Phaser.Scene {
         }
 
         // check key input for escape
-        if (this.gameOver && Phaser.Input.Keyboard.JustDown(keyLEFT)) {
+        if (this.gameOver && Phaser.Input.Keyboard.JustDown(keyLeft)) {
             this.scene.start("menuScene");
         }
         
